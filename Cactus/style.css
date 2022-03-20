@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(184, 245, 184);
+}
+.base{
+    width: 80%;
+    height: 20px;
+    background: brown;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pot-1{
+    width:8em;
+    height: 6em;
+    background: brown;
+    position: absolute;
+    top: 40%;
+    left: 15em;
+    border-radius: 0 0 4em 4em;
+}
+.pot-2{
+    width:8em;
+    height: 6em;
+    background: brown;
+    position: absolute;
+    top: 40%;
+    left: 43em;
+    border-radius: 0 0 4em 4em;
+}
+.pot-3{
+    width:8em;
+    height: 6em;
+    background: brown;
+    position: absolute;
+    top: 40%;
+    right: 40em;
+    border-radius: 0 0 4em 4em;
+}
+.pot-4{
+    width:8em;
+    height: 6em;
+    background: brown;
+    position: absolute;
+    top: 40%;
+    right: 15em;
+    border-radius: 0 0 4em 4em;
+}
+.cactus-4-1{
+    width:3.5em;
+    height: 8em;
+    background: green;
+    position: absolute;
+    right: 17em;
+    top: 16em;
+    border-radius: 5em 5em 0 0;
+
+}
+.cactus-4-2{
+    width: 3em;
+    height: 6em;
+    background: rgb(19, 206, 19);
+    position: absolute;
+    right:19em;
+    top: 18em;
+    border-radius: 5em 5em 0 0;
+
+}
