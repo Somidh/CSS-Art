@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.house {
+    position: relative;
+    left: 1em;
+}
+
+.traingle {
+    position: absolute;
+    height: 0;
+    width: 0;
+    /* border-top: 100px solid #74C3E1; */
+    border-bottom: 150px solid #45597e;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    top: 10em;
+    right: 55em;
+}
+
+.circle {
+    background: #000;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 2em;
+    transform: translate(-50%, 20%);
+
+}
+
+.roof {
+    position: absolute;
+    height: 2px;
+    width: 670px;
+    background: rgb(0, 0, 0);
+
+}
+.roof-color{
+    position: absolute;
+    width: 788px;
+    height: 18em;
+    background: brown;
+    clip-path: polygon(0 42.4%, 84.5% 42.4%, 98% 93%, 21% 100%);
+    top: -120px;
+    right: -120px;
+    
+}
+
+.bottom-roof-border {
+    position: absolute;
+    height: 2.5px;
+    width: 625px;
+    background: rgb(0, 0, 0);
+    bottom: -9.28em;
+    transform: translateX(23.7%);
+}
+
+.right-roof-border {
+    position: absolute;
+    width: 2px;
+    height: 11.2em;
+    background: rgb(0, 0, 0);
+    right: -3.2em;
+    top: -.9em;
+    transform: rotate(-35deg);
+}
+
+.front {
+    height: 20em;
+    width: 18.5em;
+    background: #D84727;
+    position: absolute;
+    top: 150px;
+    transform: translateX(-50%);
+    border: 3.5px solid #000;
+}
+
+.door-border {
+    position: absolute;
+    height: 12em;
+    width: 8em;
+    background: #000;
+    bottom: -1px;
+    transform: translateX(60%);
+}
+
+.door {
+    background: brown;
+    width: 6em;
+    height: 12.3em;
+    position: absolute;
+    bottom: -10px;
+    clip-path: polygon(9% 0, 84% 2%, 85% 85%, 8% 94%);
+
+}
+
+.door-knob {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: silver;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 6em;
+    transform: rotate(-10deg);
+}
+
+.door-corner {
+    height: 11.6em;
+    width: 8px;
+    position: absolute;
+    background: rgb(92, 1, 1);
+    top: 4px;
+}
+
+.body {
+    position: absolute;
+    background: #D84727;
+    width: 620px;
+    height: 320px;
+    top: 2.2px;
+    /* left: 1px; */
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+}
+
+.left-window {
+    position: absolute;
+    background:  #4DD0E2;
+    width: 7em;
+    height: 5em;
+    bottom: 50%;
+    transform: translateY(50%);
+    left: 8em;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+
+.right-window {
+    position: absolute;
+    background:  #4DD0E2;
+    width: 7em;
+    height: 5em;
+    bottom: 50%;
+    transform: translateY(50%);
+    right: 8em;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.vertical-border {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    width: 5px;
+    height: 78px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -.5px;
+}
+
+.horizontal-border {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 110px;
+    top: 50%;
+    left: -.5px;
+    transform: translateY(-50%);
+}
+
+.chimney {
+    position: absolute;
+    background: brown;
+    width: 5em;
+    height: 4em;
+    top: -4em;
+    right: 5em;
+}
+
+.chimney-top {
+    background: rgb(78, 13, 13);
+    position: absolute;
+    width: 5.5em;
+    height: 10px;
+    left: -4px;
+}
+
+.brick-1 {
+    position: absolute;
+    background: rgb(205, 46, 46);
+    width: 1em;
+    height: 10px;
+    top: 10.5px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-2 {
+    position: absolute;
+    width: 1.5em;
+    height: 10px;
+    background: rgb(109, 11, 11);
+    top: 10.5px;
+    left: 17px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-3 {
+    position: absolute;
+    width: 1.5em;
+    height: 10px;
+    background: rgb(192, 44, 44);
+    top: 10.5px;
+    right: 15px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-4 {
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background: rgb(109, 11, 11);
+    top: 10.5px;
+    right: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-5 {
+    position: absolute;
+    width: 1.5em;
+    height: 10px;
+    background: rgb(192, 44, 44);
+    top: 21.5px;
+    left: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-6 {
+    position: absolute;
+    background: rgb(234, 37, 37);
+    width: 1em;
+    height: 10px;
+    top: 21.5px;
+    left: 25px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-7 {
+    position: absolute;
+    background: rgb(106, 34, 34);
+    width: 1.3em;
+    height: 10px;
+    top: 21.5px;
+    right: 18px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+
+}
+
+.brick-8 {
+    position: absolute;
+    background: #cd2e2e;
+    width: 1.15em;
+    height: 10px;
+    top: 21.5px;
+    right: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-9 {
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background: rgb(109, 11, 11);
+    top: 31.5px;
+    left: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-10 {
+    position: absolute;
+    width: 1.5em;
+    height: 10px;
+    background: rgb(192, 44, 44);
+    top: 31.5px;
+    left: 14px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-11 {
+    position: absolute;
+    background: rgb(205, 46, 46);
+    width: 1.28em;
+    height: 10px;
+    top: 31.5px;
+    right: 21.5px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+
+.brick-12 {
+    position: absolute;
+    background: rgb(106, 34, 34);
+    width: 1.3em;
+    height: 10px;
+    top: 31.5px;
+    right: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+
+}
+
+.brick-13 {
+    position: absolute;
+    background: rgb(170, 40, 40);
+    width: 1.3em;
+    height: 10px;
+    top: 41.5px;
+    left: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+
+}
+.brick-14 {
+    position: absolute;
+    width: 1.5em;
+    height: 10px;
+    background: rgb(146, 53, 53);
+    top: 41.5px;
+    left: 21.5px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+.brick-15 {
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    background: rgb(220, 45, 45);
+    top: 41.5px;
+    right: 20px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+.brick-16 {
+    position: absolute;
+    width: 1.25em;
+    height: 10px;
+    background: rgb(202, 16, 16);
+    top: 41.5px;
+    right: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+}
+.brick-17 {
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    background: rgb(109, 11, 11);
+    top: 51.5px;
+    left: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.brick-18{
+    position: absolute;
+    width: 1.8em;
+    height: 13px;
+    background: rgb(202, 30, 30);
+    top: 51.5px;
+    left: 15px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.brick-19{
+    position: absolute;
+    width: 1.3em;
+    height: 13px;
+    background: rgb(91, 20, 20);
+    top: 51.5px;
+    right: 15.5px;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.brick-20{
+    position: absolute;
+    background: rgb(205, 46, 46);
+    width: 1em;
+    height: 13px;
+    top: 51.5px;
+    right: 0;
+    border: 1px solid silver;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+
+}
+

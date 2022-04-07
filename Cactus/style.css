@@ -8,66 +8,54 @@ body{
 }
 .base{
     width: 80%;
-    height: 20px;
+    height: 15px;
     background: brown;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
 }
-.pot-1{
-    width:8em;
-    height: 6em;
-    background: brown;
-    position: absolute;
-    top: 40%;
-    left: 15em;
-    border-radius: 0 0 4em 4em;
-}
-.pot-2{
-    width:8em;
-    height: 6em;
-    background: brown;
-    position: absolute;
-    top: 40%;
-    left: 43em;
-    border-radius: 0 0 4em 4em;
-}
-.pot-3{
-    width:8em;
-    height: 6em;
-    background: brown;
-    position: absolute;
-    top: 40%;
-    right: 40em;
-    border-radius: 0 0 4em 4em;
-}
-.pot-4{
-    width:8em;
-    height: 6em;
+.cactus{
+    width:7em;
+    height: 5em;
     background: brown;
     position: absolute;
     top: 40%;
     right: 15em;
-    border-radius: 0 0 4em 4em;
+    border-radius: 0 0 5em 5em;
+ 
 }
-.cactus-4-1{
-    width:3.5em;
-    height: 8em;
-    background: green;
-    position: absolute;
-    right: 17em;
-    top: 16em;
-    border-radius: 5em 5em 0 0;
+.plant{
+    position:absolute;
+}
+    
+    .cactus-1{
+        width: 2em;
+        height: 4em;
+       
+    background: rgb(15, 124, 15);
 
-}
-.cactus-4-2{
-    width: 3em;
+        position: absolute;
+        top: -4em;
+        left: 20px;
+        border-radius: 5em 5em 0 0;
+    }
+
+.cactus-2{
+    width: 2em;
     height: 6em;
-    background: rgb(19, 206, 19);
+    background: rgb(27, 196, 27);
     position: absolute;
-    right:19em;
-    top: 18em;
+    top: -5.9em;
+    left: 45px;
     border-radius: 5em 5em 0 0;
+}
+.cactus-1 .strip-1{
+    width: 5px;
+    height: 65px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    border-radius: 22px 22px 0 0;
+    left: 8px;
 
 }
