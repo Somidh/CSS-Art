@@ -14,21 +14,19 @@ body {
 
     width: 50%;
     height: 50em;
-    background: brown;
+    /* background: brown; */
     position: absolute;
     /* top: 40%; */
     right: 15em;
     transform: translateX(-20%);
-
-
 }
 
 .lower-body {
     position: absolute;
     width: 30em;
     height: 90em;
-    background: yellow;
-    top: 30em;
+    background: rgb(235, 235, 2);
+    top: 34em;
     right: 50%;
     transform: translateX(50%);
     border-radius: 18em;
@@ -37,21 +35,21 @@ body {
 
 .eye-1 {
     position: absolute;
-    width: 4.5em;
-    height: 4.5em;
+    width: 3.5em;
+    height: 4em;
     background: #000;
     left: 25%;
-    top: 5em;
+    top: 4em;
     border-radius: 50%;
 }
 
 .eye-2 {
     position: absolute;
-    width: 4.5em;
-    height: 4.5em;
+    width: 3.5em;
+    height: 4em;
     background: #000;
-    right: 25%;
-    top: 5em;
+    right: 35%;
+    top: 4em;
     border-radius: 50%;
 }
 
@@ -62,8 +60,9 @@ body {
     border: solid 10px #000;
     border-color: transparent transparent #000 transparent;
     border-radius: 0 0 160px 70%/50px;
-    top: 8em;
-    right: 8em;
+    top: 5em;
+    right: 9.2em;
+    
 }
 
 .left-arm {
@@ -95,4 +94,114 @@ body {
     top:-18em;
     left: 2.5em;
     border-radius: 40%;
+    border: 8px solid #000;
 }
+.left-eye{
+    position: absolute;
+    background: #000;
+    width: 3em;
+    height: 3.5em;
+    border-radius: 50%;
+    top: 6em;
+    left: 2.5em;
+}
+.right-eye{
+    position: absolute;
+    background: #000;
+    width: 3em;
+    height: 3.5em;
+    border-radius: 50%;
+    top: 6em;
+    right: 6em;
+}
+.eye-ball{
+    position: absolute;
+    background: #eee;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    left: 8px;
+    top: 10px;
+}
+.left-eyebrow{
+    width: 3.5em;
+    height: 6px;
+    position: absolute;
+    background: #000;
+    transform: rotate(20deg);
+    left: -5px;
+    top: -2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.right-eyebrow{
+    width: 3.5em;
+    height: 6px;
+    position: absolute;
+    background: #000;
+    transform: rotate(-20deg);
+    left: -5px;
+    top: -2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nose{
+    position: absolute;
+    background: #000;
+    width: 3.4em;
+    height: 2em;
+    bottom: 6em;
+    left: 7em;
+    border-radius: 1.5rem 1.5rem 3.5rem  3.5rem;
+    
+}
+.nose-white{
+    position: absolute;
+    background: rgba(238,238,238,.5);
+    width: 20px;
+    height: 6px;
+    border-radius: 50%;
+    left: 1em;
+    top: 2px;
+
+}
+.angry-smile{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border: solid 10px #000;
+    border-color: transparent transparent #000 transparent;
+    border-radius: 0 0 160px 70%/50px;
+    top: 9.8em;
+    right: 6em;
+}
+.hat{
+    position: absolute;
+    background: rgb(221, 193, 50);
+    width: 22em;
+    height: 12em;
+    top: -7.5em;
+    left: -.7em;
+    border-radius: 10rem 10rem .2rem .2rem;
+    border: 5px solid #000;
+}
+.hat-upper-border{
+    position: absolute;
+    width: 30em;
+    height: 15px;
+    background: rgb(221, 193, 50);
+    border: 5px solid #000;
+    left: -3.8em;
+    bottom: -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
